@@ -1,0 +1,160 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Container */
+.main-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Content */
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left Panel */
+.left-panel {
+    width: 45%;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+/* Right Panel */
+.right-panel {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* File Type Dropdown */
+.file-type-dropdown {
+    margin-bottom: 20px;
+}
+
+#fileType {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+/* Info Input */
+.info-input textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+/* Generate Button */
+.generate-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.generate-button:hover {
+    background-color: #0056b3;
+}
+
+/* Upload Section */
+.upload-section {
+    margin-bottom: 20px;
+}
+
+.upload-section input[type="file"] {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Tracking Switch */
+.tracking-switch {
+    display: flex;
+    align-items: center;
+}
+
+.tracking-switch label {
+    margin-right: 10px;
+}
+
+/* QR Code Container */
+#qrcode-container {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ddd;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Frame Selection */
+.frame-selection {
+    margin-bottom: 20px;
+}
+
+.frames {
+    display: flex;
+    justify-content: center;
+}
+
+.frame {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.frame.selected {
+    border-color: #007bff;
+    background-color: #e6f0ff;
+}
+
+/* Download Buttons */
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.download-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #218838;
+}
